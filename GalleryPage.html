@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Center</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="#">
+
+
+    <style>
+        #btn1 {
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+
+        #Welcome {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/banner.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+    </style>
+    
+</head>
+
+<body id="#">
+
+    <!-- Logo -->
+
+    <div class="container text-center">
+    <br>
+        <img src="Images/logo.png" width="200px" height="100">
+    </div>
+    
+    <div class="row">
+
+        <div class="col-sm-4 pull-right text-right">
+            
+            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"> Log In </span></button>
+            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-user"> Sign Up </span></button>
+            <a> &nbsp; </a> <p> </p>
+            
+        </div>
+
+    </div>
+
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-inverse navbar-sticky-top">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><b>AutoDesk</b></a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+
+                <ul class="nav navbar-nav">
+             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">All Courses</a></li>
+          <li><a href="#">Registration</a></li>
+          <li><a href="#">Payment</a></li>
+        </ul>
+      </li>
+                    <li  class="active"><a href="HomePage.html">Home</a></li>
+                    <li><a href="AboutPage.html">About Us</a></li>
+                    <li><a href="GalleryPage.html">Gallery</a></li>
+                    <li><a href="ShopPage.html">All Courses</a></li>
+                    <li><a href="ContactPage.html">Contact</a></li>
+
+                </ul>
+                
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+                
+                <ul class="nav navbar-nav navbar-right">
+                     <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> </a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </nav>
+
+
+
+    <!-- Slider section -->
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -50px;">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+
+
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="Images/1.jpg" alt="1" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="Images/2.jpg" alt="2" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="Images/3.jpg" alt="3" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="Images/4.jpg" alt="4" style="width:100%;">
+            </div>
+            
+            <div class="item">
+                <img src="Images/5.jpg" alt="5" style="width:100%;">
+            </div>
+
+        </div>
+
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+    </div>
+
+
+
+
+    <!-- Footer -->
+
+    <div class="container-fluid">
+
+        <div class="row text-center">
+            <p id="Welcome">W e l c o m e &nbsp;&nbsp; T o &nbsp;&nbsp; O u r &nbsp;&nbsp; O f f i c i a l &nbsp;&nbsp; P a g e</p>
+        </div>
+        
+ 
+        
+     
+    <!-- Course Section -->
+
+    <div class="container text-center">
+
+        <h1 style="color: darkslateblue;"><b>Our Popular Courses</b></h1><hr>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Images/w1.png" alt="" style="width: 100%;">
+                    <div class="caption text-left">
+                        <p>Web development encompasses the creation, management, and maintenance of websites and web applications. Front-end development focuses on the client side, designing and implementing the visual and interactive elements users see and interact with. Back-end development involves server-side scripting and database management, handling the behind-the-scenes operations to ensure functionality and data management. Web developers use languages like HTML, CSS, JavaScript, and server-side scripting languages like PHP, Python, or Ruby.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Images/g1.jpg" alt="" style="width: 100%;">
+                    <div class="caption text-left">
+                        <p>Graphic designing is one of the best ways to represent content or information through visually appealing graphics. Graphic designers often make use of layout, font, images, etc., to create graphics that appeal to customers. However, the term graphic design is diverse and is not restricted to just designing images, posters, or logos.
+
+                            Graphing designing is inclusive of various designing fields having their own skill sets, job profile, and scope. Some of the most common fields include advertising, environmental, publication, motion, corporate, web and UI design.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Images/d1.jpg" alt="" style="width: 100%;">
+                    <div class="caption text-left">
+                        <p>Digital marketing in Brisbane is an integral part of local businesses' efforts to gain exposure and recognition in their respective markets, ensuring their target audience knows who they are and engages with them.
+                            However, digital marketing is not as cut and dried as you may think. Instead, it is quite a complex process in how you approach various demographics and gain their interest, which is why hiring a digital marketing agency in Brisbane is a smart move towards successful online campaigns.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+            <div class="container-fluid">
+
+    <h2 style="color: darkred;"><b>Watch More</b></h2><hr>
+      
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wILb3byqJTc?si=hMEWUV8M96uKTTxO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
+    <br><br>          
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oYvrEr3OKEE?si=2R_kTvcywypEppsZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+    </div><br><br>
+     
+        
+    </div>
+
+ 
+    <!-- Team Head -->
+
+    <div class="container-fluid" style="background-color: #d9d9d9;">
+        <div class="container">
+
+            <div class="row text-center">
+               <br> <h2 style="color: darkgreen;"><b>OUR RESPECTED HEADS</b></h2><hr>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4 text-center">
+                    <img class="img-circle" src="Images/c.jpg" width="60%">
+                    <h2>Md. Ashraful Alom</h2>
+                    <p><b>CEO, Founder</b></p><br>
+
+                </div>
+
+                <div class="col-sm-4 text-center">
+                    <img class="img-circle" src="Images/a.jpg" width="60%">
+                    <h2>Khondoker Ahmed</h2>
+                    <p><b>Managing Director</b></p><br>
+
+                </div>
+
+
+                <div class="col-sm-4 text-center">
+                    <img class="img-circle" src="Images/b.jpg" width="60%">
+                    <h2>Md. Abdul Kader</h2>
+                    <p><b>General Manager</b></p><br>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+<!-- Footer Section -->
+<div id="contact" class="container-fluid bg-grey" style="background-color: darkgrey;">
+    <div class="row">
+  
+                        <div class="col-sm-2"><br><br><br>
+                   <h4><b>Community</b></h4><br>
+                  <p>About Us</p>
+                  <p>Privacy & Policy</p>           
+                  <p>Terms & Conditions</p>
+                  <p>Support Team</p>
+                  <p>Control Panel</p>
+                            
+                  </div>
+        
+            <div class="col-sm-3"><br><br><br>
+                <h4><b>Address</b></h4><br>
+     
+        <p><span class="glyphicon glyphicon-map-marker"></span> 71/2, Karwan Bazar, Dhaka</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +880 1234567890</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row"><br><br>
+            <h2>&nbsp;&nbsp;CONTACT</h2><br>
+          <div class="col-sm-6 form-group"> 
+           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+           <p></p><button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div><br>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Copyright -->
+
+    <div class="container-fluid" style="background-color: #1a1a1a; padding: 20px; color: white; font-size: 15px;">
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <a href="#myPage"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+
+                <p>&copy; Copyright 2024, AutoDesk.com &nbsp; - &nbsp; Powered by Md. Abdul Latif Siyam</p>
+
+            </div>
+
+        </div>
+
+</body>
+
+</html>
